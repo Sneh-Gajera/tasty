@@ -1,0 +1,128 @@
+:root{
+    --jeri-green:#243F2F;
+    --parrot-color:#00D783
+}
+p{
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.top_header{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: var(--jeri-green);
+}
+header p{
+    color: white;
+}
+header img{
+    width: 20px;
+}
+
+/* bread */
+
+.braed{
+    background-image: url(tasty-daily/bread.jpg);
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    align-self: start;
+    background-position: center;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.bread_title h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.breadcrumb li,.breadcrumb li a{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fff !important;
+}
+
+  /* vegetable list  */
+  .same_sec{
+    margin-top: 100px;
+  }
+
+  .product1{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .image_part{
+    
+    height: 250px;
+    position: relative;
+  }
+  .k1{
+    object-fit: cover;
+  }
+  .k2{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in;
+  }
+  .image_part img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title_part h3{
+
+    color: var(--parrot-color);
+  }
+  .title_part{
+    padding: 0 15px 15px 15px;
+  }
+  .price span{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--jeri-green);
+  }
+
+  .price p{
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 20px;
+    color: #c0c0c0
+  }
+  .cart i{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--jeri-green);
+  }
+  
+.product1:hover .k2{
+    opacity: 1;
+    visibility: visible;
+}
