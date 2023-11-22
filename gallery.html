@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Gallery</title>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
 
     <!-- flat icon -->
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
@@ -25,6 +27,22 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+     <!-- owl carousel -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+   />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+   />
+
+   <!-- lightbox -->
+   <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+   rel="stylesheet"
+ />
   </head>
   <body>
 
@@ -65,8 +83,8 @@
                 <ul>
                   <li><a href="">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="sh">Shop</a></li>
-                  <li><a href="">Gallery</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -99,12 +117,12 @@
     <div class="braed">
       <div class="container con">
         <div class="bread_title">
-          <h2>Contact Us</h2>
+          <h2>About Us</h2>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Contact Us
+                About
               </li>
             </ol>
           </nav>
@@ -114,103 +132,73 @@
 
   <!-- breadcrumb -->
 
-    <!-- contact list -->
+    <!-- gallery list -->
 
-    <div class="same_sec">
-      <div class="container">
-       <div class="row">
+    <div class="same_sec"> 
+    <div class="gallery_main">
+        <div class="container">
+          <div class="gallery">
+            <div class="item_list">
+              <ul>
+                <li class="list active" data-filter="all">View All</li>
+                <li class="list" data-filter="fruit">Fruits</li>
+                <li class="list" data-filter="drink">Drinks</li>
+                <li class="list" data-filter="veg">Vegetables</li>
+                <li class="list" data-filter="dairy">Dairy Product</li>
+              </ul>
+            </div>
+  
+            <div class="gallery_img mt-5">
+              <a href="tasty-daily/g11.jpg"  class="box veg" data-lightbox="roadtrip">
+                <img src="tasty-daily/g11.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+  
+              <a href="tasty-daily/g12.jpg" class="box veg" data-lightbox="roadtrip">
+                <img src="tasty-daily/g12.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+  
+              <a href="tasty-daily/g13.jpg"  class="box drink" data-lightbox="roadtrip">
+                <img src="tasty-daily/g13.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+  
+              <a href="tasty-daily/g14.jpg" class="box fruit" data-lightbox="roadtrip">
+                <img src="tasty-daily/g14.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+  
+              <a href="tasty-daily/g7.jpg" class="box dairy" data-lightbox="roadtrip">
+                <img src="tasty-daily/g7.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+  
+              <a href="tasty-daily/g8.jpg" class="box drink"  data-lightbox="roadtrip">
+                <img src="tasty-daily/g8.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-           <div class="contact_info">
-            <h3>Phone</h3>
-            <p>+91 8160645748</p>
-           </div>
+              <a href="tasty-daily/dahi1.jpg" class="box dairy" data-lightbox="roadtrip">
+                <img src="tasty-daily/dahi1.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+
+              <a href="tasty-daily/straberry.jpg" class="box fruit" data-lightbox="roadtrip">
+                <img src="tasty-daily/straberry.jpg" alt="" />
+                <i class="fa-solid fa-plus"></i>
+              </a>
+
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="contact_info">
-             <h3>Email</h3>
-             <p>info@tastydaily.com</p>
-            </div>
-         </div>
-
-         <div class="col-lg-3 col-md-6 mb-4">
-            <div class="contact_info">
-             <h3>Address</h3>
-             <p>25 West 21th Street USA</p>
-            </div>
-         </div>
-
-         <div class="col-lg-3 col-md-6 mb-4">
-            <div class="contact_info">
-             <h3>Work Hours</h3>
-             <p>Mon-Fri: 10:00 AM - 18:00 PM</p>
-            </div>
-         </div>
-
-       </div>
-
-       <div class="row mt-4">
-
-        <div class="col-lg-6 mb-4 col-md-6" >
-            <div class="image">
-                <img src="tasty-daily/c_img.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-            <div class="contact_form">
-                <form action="">
-
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 mb-4">
-                            <div class="form-group">
-                                <label for="" class="mb-2">Fname</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                        </div>
-        
-                        <div class="col-lg-6 col-md-6 mb-4">
-                            <div class="form-group">
-                                <label for="" class="mb-2">Lname</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                        </div>
-        
-                        <div class="col-lg-6 col-md-6 mb-4">
-                            <div class="form-group">
-                                <label for="" class="mb-2">Email</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                        </div>
-        
-                        <div class="col-lg-6 col-md-6 mb-4">
-                            <div class="form-group">
-                                <label for="" class="mb-2">Subject</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                        </div>
-        
-                        <div class="col-lg-12 mb-3">
-                            <div class="form-group">
-                                <label for="" class="mb-2">Massage</label>
-                                <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
-                            </div>
-                        </div>
-    
-                       <div class="send text-center">
-                        <button>Submit</button>
-                       </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-       </div>
       </div>
     </div>
 
-     <!-- contact list -->
+     <!-- gallery list -->
+
+
+   
 
     <!-- footer -->
 
@@ -299,10 +287,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 
+
+     <!-- owl carousel -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
     <!-- main js -->
     <script src="main.js" defer></script>
 
-
+    <script>
+        $(document).ready(function () {
+          $(".list").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            const value = $(this).attr("data-filter");
+            if (value == "all") {
+              $(".box").show();
+            } else {
+              $(".box")
+                .not("." + value)
+                .hide();
+              $(".box")
+                .filter("." + value)
+                .show();
+            }
+          });
+        });
+      </script>
 
   </body>
 </html>

@@ -15,7 +15,7 @@
 
   .about_text h3 {
     font-size: 35px;
-}
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -83,12 +83,21 @@
     font-size: 14px;
   }
 
-  .about_text_part h4{
-    font-size: 20px
+  .about_text_part h4 {
+    font-size: 20px;
+  }
+
+  /* gallery */
+
+  .gallery .item_list ul li {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .bread_title h2 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -97,12 +106,44 @@
   .breadcrumb li a {
     font-size: 16px;
   }
+
+  .gallery .item_list ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery_img img {
+    width: 248px;
+    height: 248px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   .braed {
     height: 200px;
   }
+
+  .gallery_img img {
+    width: 100%;
+  }
+
+  .bg_row_color td {
+    font-size: 15px !important; 
+  }
+  .sec_table p,
+  .sec_table span {
+    font-size: 14px !important;
+  }
+  .form-check label {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .table_btn {
+  font-size: 15px;
+    padding: 10px 10px;
+    
+}
 }
 
 @media only screen and (max-width: 425px) {
@@ -113,14 +154,26 @@
   .top_header i {
     font-size: 8px;
   }
-
+  .gallery .item_list ul {
+    gap: 10px;
+  }
   .braed {
     height: 170px;
+  }
+  .bg_row_color td {
+    font-size: 12px !important; 
   }
 }
 
 @media only screen and (max-width: 350px) {
   .braed {
     height: 150px;
+  }
+
+  .gallery .item_list ul li {
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
   }
 }
