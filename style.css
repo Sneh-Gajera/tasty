@@ -459,6 +459,15 @@ ul {
   background-color: var(--parrot-color);
   color: #fff;
 }
+.qty{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: 1px solid var(--jeri-green);
+}
 
 .border_bottom {
   border-bottom: 1px solid var(--jeri-green);
